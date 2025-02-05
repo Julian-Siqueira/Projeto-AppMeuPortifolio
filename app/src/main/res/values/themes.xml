@@ -6,5 +6,15 @@
         <item name="android:statusBarColor">@color/blue</item>
     </style>
 
+    <style name="TelaContato" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/dark_green</item>
+    </style>
+
+    <style name="TelaProjeto" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
     <style name="Theme.AppMeuPortifolio" parent="Base.Theme.AppMeuPortifolio" />
+    <style name="Theme.TelaContato" parent="TelaContato" />
+    <style name="Theme.TelaProjeto" parent="TelaProjeto" />
 </resources>

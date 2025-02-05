@@ -26,4 +26,6 @@
     <string name="detalhes_do_projeto">Detalhes do Projeto</string>
     <string name="projeto_pizzaria">Projeto Pizzaria</string>
     <string name="projeto_marcenaria">Projeto Marcenaria</string>
+    <string name="title_meus_projetos">Meus Projetos</string>
+    <string name="title_contatos">Contatos</string>
 </resources>
