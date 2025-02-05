@@ -1,13 +1,10 @@
 package com.example.appmeuportifolio
 
-import android.graphics.Bitmap
+import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.appmeuportifolio.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -24,5 +21,17 @@ class MainActivity : AppCompatActivity() {
         val circulo = RoundedBitmapDrawableFactory.create(resources, fotoPerfil)
         circulo.isCircular = true
         binding.imageUser.setImageDrawable(circulo)
+
+        binding.btnProjeto.setOnClickListener{
+
+            val intent = Intent(this, Projetos::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnContato.setOnClickListener{
+
+            val intent = Intent(this, Contatos::class.java)
+            startActivity(intent)
+        }
     }
 }

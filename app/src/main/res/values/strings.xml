@@ -22,4 +22,8 @@
         compartilhando conhecimento e orientando equipes para alcançarem seu melhor desempenho.\n\n</string>
     <string name="txt_btnProjetos">Projetos</string>
     <string name="txt_btnContato">Contato</string>
+    <string name="projeto_barbearia">Projeto Barbearia</string>
+    <string name="detalhes_do_projeto">Detalhes do Projeto</string>
+    <string name="projeto_pizzaria">Projeto Pizzaria</string>
+    <string name="projeto_marcenaria">Projeto Marcenaria</string>
 </resources>
