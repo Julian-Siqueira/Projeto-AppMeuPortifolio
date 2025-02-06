@@ -1,5 +1,7 @@
 package com.example.appmeuportifolio
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -17,6 +19,21 @@ class Projetos : AppCompatActivity() {
 
         binding.actionbarProjeto.setNavigationOnClickListener {
             finish()
+        }
+
+        binding.projetoBanco.setOnClickListener{
+            intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Julian-Siqueira/Projeto-BancoMR"))
+            startActivity(intent)
+        }
+
+        binding.projetoDelivery.setOnClickListener{
+            intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Julian-Siqueira/Projeto-Delivery"))
+            startActivity(intent)
+        }
+
+        binding.projetoFilme.setOnClickListener{
+            intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Julian-Siqueira/Projeto-AppFilmes"))
+            startActivity(intent)
         }
 
     }

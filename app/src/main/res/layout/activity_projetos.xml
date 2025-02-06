@@ -21,28 +21,29 @@
         app:title="@string/title_meus_projetos"/>
 
     <ImageView
-        android:id="@+id/barbearia"
+        android:id="@+id/banco"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/projeto_barbearia"
-        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/banco"
+        app:layout_constraintTop_toBottomOf="@id/actionbar_projeto"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_margin="15dp"/>
 
     <TextView
-        android:id="@+id/txtTituloBarbearia"
+        android:id="@+id/txtTituloBanco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/projeto_barbearia"
+        android:text="@string/projeto_banco"
         android:textStyle="bold"
         android:textSize="20sp"
         android:textColor="@color/black"
-        app:layout_constraintStart_toEndOf="@id/barbearia"
+        app:layout_constraintStart_toEndOf="@id/banco"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintTop_toTopOf="@id/barbearia"/>
+        app:layout_constraintTop_toTopOf="@id/banco"/>
 
     <Button
+        android:id="@+id/projeto_banco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -52,37 +53,38 @@
         android:textColor="@color/white"
         android:textStyle="bold"
         app:cornerRadius="50dp"
-        app:layout_constraintStart_toEndOf="@id/barbearia"
-        app:layout_constraintTop_toBottomOf="@id/txtTituloBarbearia" />
+        app:layout_constraintStart_toEndOf="@id/banco"
+        app:layout_constraintTop_toBottomOf="@id/txtTituloBanco" />
 
     <ImageView
-        android:id="@+id/pizzaria"
+        android:id="@+id/delivery"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/projeto_pizzaria"
-        app:layout_constraintTop_toBottomOf="@id/barbearia"
+        android:src="@drawable/delivery"
+        app:layout_constraintTop_toBottomOf="@id/banco"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_margin="15dp"/>
 
     <TextView
-        android:id="@+id/txtTituloPizzaria"
+        android:id="@+id/txtTituloDelivery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/projeto_pizzaria"
+        android:text="@string/projeto_delivey"
         android:textStyle="bold"
         android:textSize="20sp"
         android:textColor="@color/black"
-        app:layout_constraintStart_toEndOf="@id/pizzaria"
+        app:layout_constraintStart_toEndOf="@id/delivery"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintTop_toTopOf="@id/pizzaria"/>
+        app:layout_constraintTop_toTopOf="@id/delivery"/>
 
     <Button
+        android:id="@+id/projeto_delivery"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/detalhes_do_projeto"
-        app:layout_constraintStart_toEndOf="@id/pizzaria"
-        app:layout_constraintTop_toBottomOf="@id/txtTituloPizzaria"
+        app:layout_constraintStart_toEndOf="@id/delivery"
+        app:layout_constraintTop_toBottomOf="@id/txtTituloDelivery"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
@@ -91,33 +93,34 @@
         android:textColor="@color/white"/>
 
     <ImageView
-        android:id="@+id/marcenaria"
+        android:id="@+id/filme"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/projeto_marcenaria"
-        app:layout_constraintTop_toBottomOf="@id/pizzaria"
+        android:src="@drawable/filme"
+        app:layout_constraintTop_toBottomOf="@id/delivery"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_margin="15dp"/>
 
     <TextView
-        android:id="@+id/txtTituloMarcenaria"
+        android:id="@+id/txtTituloFilme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/projeto_marcenaria"
+        android:text="@string/projeto_filme"
         android:textStyle="bold"
         android:textSize="20sp"
         android:textColor="@color/black"
-        app:layout_constraintStart_toEndOf="@id/marcenaria"
+        app:layout_constraintStart_toEndOf="@id/filme"
         android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintTop_toTopOf="@id/marcenaria"/>
+        app:layout_constraintTop_toTopOf="@id/filme"/>
 
     <Button
+        android:id="@+id/projeto_filme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/detalhes_do_projeto"
-        app:layout_constraintStart_toEndOf="@id/marcenaria"
-        app:layout_constraintTop_toBottomOf="@id/txtTituloMarcenaria"
+        app:layout_constraintStart_toEndOf="@id/filme"
+        app:layout_constraintTop_toBottomOf="@id/txtTituloFilme"
         android:textStyle="bold"
         app:cornerRadius="50dp"
         android:layout_marginStart="20dp"

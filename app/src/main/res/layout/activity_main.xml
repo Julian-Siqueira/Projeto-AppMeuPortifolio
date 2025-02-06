@@ -15,7 +15,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:layout_margin="20dp"
-        android:src="@drawable/foto_perfil" />
+        android:src="@drawable/jucao" />
 
     <TextView
         android:layout_width="match_parent"
