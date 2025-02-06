@@ -1,31 +1,33 @@
 <resources>
     <string name="app_name">AppMeuPortifolio</string>
-    <string name="txt_nome_usuario">Leonardo Campos</string>
+    <string name="txt_nome_usuario">Julian Siqueira</string>
     <string name="txt_descricaoUsuario">
-        Leonardo Campos é um desenvolvedor Android sênior com uma paixão inigualável pela criação de
-        experiências digitais inovadoras. Com mais de uma década de experiência no desenvolvimento de aplicativos móveis, ela traz consigo
-        um profundo entendimento do ecossistema Android e uma dedicação incansável à excelência técnica.\n\n\n
+        Julian é um desenvolvedor Android junior com uma paixão inigualável pela criação de
+        experiências digitais inovadoras. Iniciando sua carreira no desenvolvimento de aplicativos móveis, ela traz consigo
+        uma dedicação incansável à excelência técnica.\n\n\n
 
         <b>Habilidades:</b>\n\n
 
-        <b><font color='#FF0000'>Desenvolvimento Android:</font></b> Especialista em Kotlin, Leonardo possui uma profunda compreensão do desenvolvimento Android
+        <b><font color='#FF0000'>Desenvolvimento Android:</font></b> Focado em Kotlin mas tambem com conhecimento em Java, Julian possui uma compreensão do desenvolvimento Android
         nativo, entregando aplicativos robustos e eficientes.\n\n
 
         <b><font color='#FF0000'>Arquitetura de Software:</font></b> Experiente na implementação de arquiteturas modernas
-        como MVVM, Clean Architecture e Jetpack Compose, garantindo código modular e de fácil manutenção.\n\n
+        como MVVM, Jetpack Compose, garantindo código modular e de fácil manutenção.\n\n
 
-        <b><font color='#FF0000'>Testes Automatizados:</font></b> Firme defensor da qualidade do software, Leonardo implementa testes automatizados de unidade e
+        <b><font color='#FF0000'>Testes Automatizados:</font></b> Firme defensor da qualidade do software, Julian implementa testes automatizados de unidade e
         UI para garantir a estabilidade e
         a confiabilidade de cada aplicativo.\n\n
 
-        <b><font color='#FF0000'>Mentoria e Liderança Técnica:</font></b> Além de suas habilidades técnicas, Leonardo destaca-se como mentor,
-        compartilhando conhecimento e orientando equipes para alcançarem seu melhor desempenho.\n\n</string>
+        <b><font color='#FF0000'>Aprendizagem Rápida:</font></b> Além de suas habilidades técnicas, Julian destaca-se pelo rápido aprendizado,
+        compartilhando conhecimento e adquirindo experiência.\n\n</string>
     <string name="txt_btnProjetos">Projetos</string>
     <string name="txt_btnContato">Contato</string>
-    <string name="projeto_barbearia">Projeto Barbearia</string>
+    <string name="projeto_banco">Projeto App Banco</string>
     <string name="detalhes_do_projeto">Detalhes do Projeto</string>
-    <string name="projeto_pizzaria">Projeto Pizzaria</string>
-    <string name="projeto_marcenaria">Projeto Marcenaria</string>
+    <string name="projeto_delivey">Projeto App Delivery</string>
+    <string name="projeto_filme">Projeto App Filme</string>
     <string name="title_meus_projetos">Meus Projetos</string>
     <string name="title_contatos">Contatos</string>
+    <string name="phone_number">+55 024 99964 6677</string>
+    <string name="contato_email">juliansiqueiradev@gmail.com</string>
 </resources>

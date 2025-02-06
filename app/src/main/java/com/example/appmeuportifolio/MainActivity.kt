@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        val fotoPerfil = BitmapFactory.decodeResource(resources, R.drawable.foto_perfil)
+        val fotoPerfil = BitmapFactory.decodeResource(resources, R.drawable.jucao)
         val circulo = RoundedBitmapDrawableFactory.create(resources, fotoPerfil)
         circulo.isCircular = true
         binding.imageUser.setImageDrawable(circulo)
