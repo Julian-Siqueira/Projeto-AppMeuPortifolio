@@ -1,8 +1,8 @@
-# App Meu Portifólio
+# App Meu Portfólio
 
 ![telaprincipal](https://github.com/user-attachments/assets/c3ee3fce-6d5a-485c-a973-90fa41fbf989)
 
-Projeto do meu portifólio com os apps relevantes desenvolvidos até o momento:<br>
+Projeto do meu portfólio com os apps relevantes desenvolvidos até o momento:<br>
 
 ## Telas do App
 Tela Inicial:<br>
